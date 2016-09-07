@@ -2,7 +2,14 @@
 
 Este proyecto se puede visualizar en la siguiente URL: https://portalgobierno.herokuapp.com/
 
-Se configuró un servidor en Heroku con el framework CodeIgniter, Furatto y base de datos Postgresql.
+El proyecto está configurado de la siguiente forma:
+
+- Configuración del servidor en Heroku
+- Configuración del Framework CodeIgniter en Heroku
+- Integración y Configuración de la Base de Datos Postgresql tanto en CondeIgniter como en Heroku.
+- Integración del Framework Furatto para apoyar el sitio responsivo
+- Maquetado del home
+
 
 Se crearon las siguientes tablas dentro de la base de datos:
 
