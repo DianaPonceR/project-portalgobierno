@@ -13,6 +13,12 @@ El proyecto está configurado de la siguiente forma:
 
 Se crearon las siguientes tablas dentro de la base de datos:
 
+create table cronograma(
+	id serial PRIMARY KEY,
+	fecha_inicio date,
+	fecha_fin date
+);
+
 create table titular_unidad(
 	id serial PRIMARY KEY,
 	apellido_paterno varchar(35),
