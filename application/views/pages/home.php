@@ -3,13 +3,13 @@
 		<p>Año a consultar</p>
 		<input type="text" data-datepicker />
 	</div>
-	<div class="col-4">
+	<div class="col-3">
 		<button>Buscar</button>
 		<button>Descargar</button>
 	</div>
-	<div class="col-2">
-		<p>Fechas Inicio/Fin: <input type="text" id="datepicker" /></p>
-	</div>
+
+	<?php $this->load->library('form_validation'); ?>
+	<?php $this->load->view('cronograma/createdate'); ?>
 
 	<div class="col-12 pleca-relacion-proyectos">
 		<h3 class="text-center">Relación de presupuesto de proyectos</h3>

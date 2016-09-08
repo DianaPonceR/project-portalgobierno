@@ -1,0 +1,22 @@
+<?php
+class Proceso_model extends CI_Model {
+
+    public function __construct()
+    {
+        $this->load->database();
+	}
+
+    public function set_proceso()
+    {
+        $this->load->helper('url');
+
+        $slug = url_title($this->input->post('title'), 'dash', TRUE);
+
+        $data = array(
+            'fecha_inicio' => $this->input->post('date'),
+            'fecha_fin' => $this->input->post('datef')
+        );
+
+        return $this->db->insert('cronograma', $data);
+    }
+}

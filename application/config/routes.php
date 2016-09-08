@@ -53,5 +53,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 #$route['404_override'] = '';
 #$route['translate_uri_dashes'] = FALSE;
 
+$route['proceso/createproceso'] = 'proceso/createproceso';
+$route['proceso/(:any)'] = 'proceso/view/$1';
+$route['proceso'] = 'proceso';
+
+$route['cronograma/dates'] = 'cronograma/dates';
+$route['cronograma/createdate'] = 'cronograma/createdate';
+$route['cronograma/create'] = 'cronograma/create';
+$route['cronograma/(:any)'] = 'cronograma/view/$1';
+$route['cronograma'] = 'cronograma';
 $route['default_controller'] = 'pages/view';
 $route['(:any)'] = 'pages/view/$1';

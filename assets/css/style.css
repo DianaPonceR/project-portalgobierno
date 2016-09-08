@@ -78,3 +78,26 @@ div#menu-footer {
 .menu-tres {
 	margin-top: 3%;
 }
+
+/* Formulario */
+input.fecha {
+	width: 50%;
+}
+
+.row .col-10 .success {
+	clear: left;
+}
+
+/* Lista Periodos*/
+
+.lista-periodos {
+	padding: 3%;
+}
+
+.h_1 {
+	font-size: 48px;
+}
+
+.h_2 {
+	font-size: 39px;
+}

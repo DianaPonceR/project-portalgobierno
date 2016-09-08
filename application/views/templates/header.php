@@ -11,6 +11,7 @@
 	    <!-- Load jQuery UI Main JS  -->
 	    <script src="<?php echo base_url();?>assets/js/jquery-ui.js"></script>
 	    <script src="<?php echo base_url();?>assets/js/scriptdate.js"></script>
+	    <script src="<?php echo base_url();?>assets/js/scriptdate2.js"></script>
 	</head>
 
 	<body>
@@ -44,3 +45,4 @@
 						</ul>
 					</nav>
 				</div><!-- End col-10-->
+			</div><!-- End row -->
