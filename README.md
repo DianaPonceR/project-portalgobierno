@@ -70,4 +70,4 @@ create table miembros_grupos(
 
 PENDIENTES
 
-Al proyecto le falta la parte funcional.
+Por ahora, el proyecto crea nuevos periodos, los almacena en la base de datos y los muestra en otra vista (https://portalgobierno.herokuapp.com/index.php/cronograma/dates)
