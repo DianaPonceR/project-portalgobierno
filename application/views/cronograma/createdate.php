@@ -16,5 +16,7 @@
 	</form>
 
 	<p><a href="<?php echo site_url('cronograma/dates'); ?>">Ver periodos creados</a></p>
+	<p><a href="<?php echo site_url('proceso/createregla'); ?>">Crear Reglas del Proceso</a></p>
+	<p><a href="<?php echo site_url('proceso/tabla'); ?>">Ver Reglas del Proceso</a></p>
 
 </div>

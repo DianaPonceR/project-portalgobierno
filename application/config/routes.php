@@ -53,6 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 #$route['404_override'] = '';
 #$route['translate_uri_dashes'] = FALSE;
 
+$route['proceso/createregla'] = 'proceso/createregla';
 $route['proceso/tabla'] = 'proceso/tabla';
 $route['proceso'] = 'proceso';
 
