@@ -40,7 +40,7 @@
 							<li class="divider"></li>
 							<li><a href="#">Audiencia</a></li>
 							<li class="divider"></li>
-							<li><a href="locomotivecms/1_locomotivecms.html">Salir</a></li>
+							<li><a href="#">Salir</a></li>
 							<li class="divider"></li>
 						</ul>
 					</nav>
